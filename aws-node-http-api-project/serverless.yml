@@ -8,6 +8,7 @@ provider:
 functions:
   api:
     handler: index.handler
+    timeout: 30
     events:
       - httpApi:
           path: /
